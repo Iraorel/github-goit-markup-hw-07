@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Risque&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/style.min.css">
       </head>
    <body>
      <header class="header-portfolio ">  
@@ -58,7 +59,7 @@
          <div class="form-field">
             
             <label for="name" class="name-modals" >Имя</label>  
-            <input type="text" class="fiel-input"  name="tel"  placeholder=" " pattern="[A-Za-zА-Яа-яЁё]/s"> 
+            <input type="text" class="fiel-input"  name="name" id="name" placeholder=" " pattern="[A-Za-zА-Яа-яЁё]/s"> 
             <svg class="icon-modals" widht="12" height="12">
                <use href="./images/sprite.svg.svg#icon-head"></use>
             </svg>             
@@ -66,7 +67,7 @@
 
           <div class="form-field">
             <label for="tel" class="name-modals" >Телефон</label>  
-            <input type="tel" class="fiel-input"  name="tel" placeholder=" " pattern="[0-9]">
+            <input type="tel" class="fiel-input"  name="tel" id="tel" placeholder=" " pattern="[0-9]">
             <svg class="icon-modals" widht="13" height="13">
                <use href="./images/sprite.svg.svg#icon-phon"></use>
             </svg>   
@@ -75,7 +76,7 @@
 
           <div class="form-field">
             <label for="email" class="name-modals">Почта</label>  
-            <input type="email" class="fiel-input"  name="email"  placeholder=" " patter="[A-Za-zА ][0-9]{3}"> 
+            <input type="email" class="fiel-input"  name="email" id="email"  placeholder=" " patter="[A-Za-zА ][0-9]{3}"> 
                        <svg class="icon-modals" widht="15" height="12" >
                <use href="./images/sprite.svg.svg#icon-mail"></use>
             </svg>   
@@ -89,8 +90,8 @@
                </div>
 
           <div class="form-field-checkbox">
-            <label  class="check" for="name">
-               <input class="check__input" type="checkbox" name="name" id="name" value="meeting"   placeholder=" " >
+            <label  class="check" for="check">
+               <input class="check__input" type="checkbox" name="check" id="check" value="meeting"   placeholder=" " >
                <svg class="check__box" >
                   <use href="./images/sprite.svg.svg/#icon-modal"></use>
                </svg>
