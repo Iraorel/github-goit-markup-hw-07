@@ -64,14 +64,14 @@ p {
   color: var(--accent-color);
 }
 
-.menu-link{
+.menu__link{
   position: relative;
 
 }
 
 
 
-.menu-link::after{
+.menu__link::after{
   content: "";
   position: absolute;
   bottom: -2px;
@@ -84,7 +84,7 @@ p {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover::after{
+.menu__link:hover::after{
   opacity: 1;
 }
 
@@ -114,7 +114,7 @@ p {
 
 
 
-.grid-item {
+.grid__item {
  position: relative;
   flex-basis: calc(100%-30px * var(--grid-item) / var(--grid-item));
   margin-left: 30px;
@@ -123,7 +123,7 @@ p {
 
 }
 
-.grid-text{
+.grid__text{
 position: absolute;
 top: 224px;
  left: 0;
@@ -230,14 +230,14 @@ background: rgba(47, 48, 58, 0.8);
 
 /*hero*/
 
-.dark-bg-footer {
+.dark__bg--footer {
   background-color: var(--dark-bg-color);
 }
 
-.dark-bg-section {
+.dark__bg--section {
   background-color: var(--light-bg-color);
 }
-
+ 
 .section-title .comands {
   box-sizing: border-box;
   justify-content: center;
@@ -447,7 +447,7 @@ background-image: url(..images/icon/Vector3.svg);
   color: var(--title-color);
 }
 
-.name-modals{
+.name__modals{
   display: flex;
   font-size: 12px;
   line-height: 1.17;
@@ -511,14 +511,14 @@ background-image: url(..images/icon/Vector3.svg);
   color: var(--title-color);
 }
 
-.header .conteiner {
+.header__conteiner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
 }
 
-.header .logo {
+.header__logo {
   margin-right: 50px;
 }
 
@@ -552,7 +552,7 @@ background-image: url(..images/icon/Vector3.svg);
   margin-bottom: 30px;
 }
 
-.icon-advantages {
+.icon__advantages {
   width: 65px;
   height: 70px;
 }
@@ -583,7 +583,7 @@ background-image: url(..images/icon/Vector3.svg);
   --grid-item: 4;
 }
 
-.team-member {
+.team__member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -593,7 +593,7 @@ background-image: url(..images/icon/Vector3.svg);
   margin-bottom: 10px;
 }
 
-.team-desc {
+.team__desc {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -620,7 +620,7 @@ background-image: url(..images/icon/Vector3.svg);
   display: inline-flex;
 }
 
-.clients-grup {
+.clients__grup {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -738,7 +738,7 @@ img {
   border-bottom: 1px solid var(--main-text-color);
 }
 
-.portfolio-member {
+.portfolio__member {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -768,7 +768,7 @@ img {
   margin-bottom: 50px;
   padding: 40px;
 }
-.portfolio-item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 
