@@ -22,8 +22,9 @@
   .auth-nav {
     display: -webkit-box;
     display: -ms-flexbox;
+    justify-content: flex-end;
     display: flex;
-    margin-left: 330px;
+     
   }
   
   .auth-nav .item + .item {
