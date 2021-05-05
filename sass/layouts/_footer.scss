@@ -17,3 +17,9 @@
   .dark__bg--footer {
     background-color: var(--dark-bg-color);
   }
+
+  .footer-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }

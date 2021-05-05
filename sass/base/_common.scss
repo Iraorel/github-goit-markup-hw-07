@@ -66,3 +66,16 @@ html {
     width: 1px !important;
     overflow: hidden;
   }
+  .text {
+    font-family: Risque, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+  }
+
+  img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

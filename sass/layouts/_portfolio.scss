@@ -17,3 +17,7 @@
     letter-spacing: 0.06em;
     color: var(--title-color);
   }
+
+  .portfolio__item:not(:last-child) {
+    margin-right: 8px;
+  }
